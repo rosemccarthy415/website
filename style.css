@@ -1,7 +1,14 @@
+@font-face {
+    font-family: 'aboriginal_sansregular';
+    src: url('aboriginalsansregular-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
 body {
   background-color: lightpink;
   color: #0d4362;
-  font-family: 'aboriginal sans', arial;
+  font-family: 'aboriginal_sansregular';
 }
 
 header {
