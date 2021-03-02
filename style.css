@@ -1,8 +1,16 @@
+/* Website Styles*/
+
 @font-face {
     font-family: 'aboriginal_sans_regular';
     src: url('aboriginal_sans_regular.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
+}
+
+* {
+  font-size: 100%;
+  font-weight: normal;
+  
 }
 
 body {
@@ -32,12 +40,21 @@ h2 {
 
 .center {
   text-align: center;
+  padding: 10px
+}
+
+.columns {
+  column-count: 5;
+  column-gap: 10px;
+  /* column-rule-style: solid;
+  column-rule-width: 1px;
+  column-rule-color: black; */
 }
 
 .div1 {
-  padding: 25px;
+  width: 400px;
+  height: 600px;
 }
-
 
 footer {
   text-align: center;
