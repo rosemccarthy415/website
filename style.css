@@ -58,9 +58,13 @@ p {
 
 }
 
-a {
+a:link {
+  text-decoration: underline;
   color: black;
-  text-decoration: none;
+}
+a:hover {
+  color: blue;
+  text-decoration: underline;
 }
 footer {
   text-align: center;
