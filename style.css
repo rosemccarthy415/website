@@ -15,21 +15,14 @@ body {
   font-size: 20px;
 }
 
-.banner {
-  height: 350px;
-  background-image: url(images/sunset_banner.jpg);
-}
-
 header {
     text-align: center;
-    /* background-color: #cc0000; */
+    background-image: url(images/sunset_banner.jpg);
+    background-size: cover;
     color: white;
-    /* border: 6px solid black; */
+    border: 6px solid black;
     font-size: 24px;
-}
-
-h1, h2 {
-  margin-bottom: 10px;
+    margin: 0px;
 }
 
 a:link {
@@ -86,7 +79,6 @@ h2 {
   padding: 10px
 }
 
-
 .div1 {
   border: 4px dotted red;
   float: left;
@@ -101,33 +93,31 @@ h2 {
   height: 610px;
 }
 
-/* .div3 {
+.div3 {
   border: 4px dotted red;
   float: left;
-  width: 20%;
-  height: 700px;
-  margin-top: 10%;
+  width: 19%;
+  height: 50%;
 }
 
 .div4 {
   border: 4px dotted red;
   float: left;
-  width: 20%;
-  height: 700px;
-  margin-top: 10%;
-} */
+  width: 19%;
+  height: 50%;
+}
 
 .imp {
   background-color: lightblue;
   text-align: center;
-  font-size: 100px;
+  font-size: 300%;
 }
 
 footer {
   text-align: center;
   padding: 3px;
-  background-color: #cc0000;
+  background-image: url(images/sunset_banner.jpg);
+  background-size: cover;
   color: white;
   border: 6px solid black;
-  margin: 15px;
 }
