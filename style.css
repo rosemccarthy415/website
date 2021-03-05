@@ -117,6 +117,14 @@ p {
   font-size: 300%;
 }
 
+.next {
+  text-align: right;
+}
+
+.prev {
+  text-align: left;
+}
+
 footer {
   text-align: center;
   padding: 3px;
@@ -124,4 +132,8 @@ footer {
   background-size: cover;
   color: white;
   border: 6px solid black;
+}
+
+footer a {
+  color: white;
 }
